@@ -15,6 +15,7 @@
 		098243C520561E92002020AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 098243C320561E92002020AF /* Main.storyboard */; };
 		098243C720561E92002020AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 098243C620561E92002020AF /* Assets.xcassets */; };
 		098243CA20561E92002020AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 098243C820561E92002020AF /* LaunchScreen.storyboard */; };
+		09C808C3205677A80049A13F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C808C2205677A80049A13F /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		098243C620561E92002020AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		098243C920561E92002020AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		098243CB20561E92002020AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09C808C2205677A80049A13F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				098243C320561E92002020AF /* Main.storyboard */,
+				09C808C2205677A80049A13F /* MainViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				098243C020561E92002020AF /* AppDelegate.swift in Sources */,
+				09C808C3205677A80049A13F /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,7 +350,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BZLHFX46LQ;
 				INFOPLIST_FILE = DYZBLearn/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dongdaozhu.learn.DYZBLearn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -363,7 +367,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BZLHFX46LQ;
 				INFOPLIST_FILE = DYZBLearn/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dongdaozhu.learn.DYZBLearn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
