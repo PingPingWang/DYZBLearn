@@ -33,59 +33,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		09692B1220562A46000FCFD7 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				09692B1620562A46000FCFD7 /* Main */,
-				09692B1420562A46000FCFD7 /* Home */,
-				09692B1520562A46000FCFD7 /* Live */,
-				09692B1320562A46000FCFD7 /* Follow */,
-				09692B1720562A46000FCFD7 /* Profile */,
-				09692B1820562A46000FCFD7 /* Tools */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		09692B1320562A46000FCFD7 /* Follow */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Follow;
-			sourceTree = "<group>";
-		};
-		09692B1420562A46000FCFD7 /* Home */ = {
+		0901502620566FCD0020EA39 /* Home */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Home;
 			sourceTree = "<group>";
 		};
-		09692B1520562A46000FCFD7 /* Live */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Live;
-			sourceTree = "<group>";
-		};
-		09692B1620562A46000FCFD7 /* Main */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Main;
-			sourceTree = "<group>";
-		};
-		09692B1720562A46000FCFD7 /* Profile */ = {
+		0901502720566FCD0020EA39 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Profile;
 			sourceTree = "<group>";
 		};
-		09692B1820562A46000FCFD7 /* Tools */ = {
+		0901502820566FCD0020EA39 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		0901502920566FCD0020EA39 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		0901502A20566FCD0020EA39 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		0901502B20566FCD0020EA39 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				098243C320561E92002020AF /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		09692B1220562A46000FCFD7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0901502B20566FCD0020EA39 /* Main */,
+				0901502620566FCD0020EA39 /* Home */,
+				0901502A20566FCD0020EA39 /* Live */,
+				0901502920566FCD0020EA39 /* Follow */,
+				0901502720566FCD0020EA39 /* Profile */,
+				0901502820566FCD0020EA39 /* Tools */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		098243B320561E92002020AF = {
@@ -109,7 +110,6 @@
 			children = (
 				09692B1220562A46000FCFD7 /* Classes */,
 				098243BF20561E92002020AF /* AppDelegate.swift */,
-				098243C320561E92002020AF /* Main.storyboard */,
 				098243C620561E92002020AF /* Assets.xcassets */,
 				098243C820561E92002020AF /* LaunchScreen.storyboard */,
 				098243CB20561E92002020AF /* Info.plist */,
